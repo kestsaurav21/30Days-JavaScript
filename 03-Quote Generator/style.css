@@ -52,9 +52,9 @@ body{
     min-height: 110px;
 }
 
-.container blockquote::before, 
+.container blockquote::before,
 .container blockquote::after  {
-    content: '""';;
+    content: '"';
 }
 
 .container span{
