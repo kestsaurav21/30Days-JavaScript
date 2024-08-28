@@ -10,7 +10,8 @@ The **Random Quote Generator** is a simple web application that displays a rando
 
 ## Demo Video
 
-![Demo Video](demo.mp4)
+![Random Quote Generator Demo](demo.gif)
+
 
 *Click the image above to watch the demo video.*
 
