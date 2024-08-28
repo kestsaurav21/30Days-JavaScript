@@ -10,10 +10,12 @@
 
     <main class="container">
         <h2>Quote of the day</h2>
-        <blockquote>Loading ...</blockquote>
-        <span>Loading ...</span>
+        <blockquote id="quote">Loading ...</blockquote>
+        <span id="author">Loading ...</span>
         <section>
-            <button>New Quote</button>
+            <button onclick="getQuote(url)">
+                New Quote
+            </button>
             <button>
             <img src="icon.png" alt="x-logo">Tweet</button>
         </section>
