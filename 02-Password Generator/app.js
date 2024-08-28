@@ -1,5 +1,6 @@
 
 const passwordBox = document.getElementById("password");
+const copyMessage = document.getElementById('copyMessage');
 
 const length = 12;
 
@@ -24,3 +25,27 @@ function generatePassword() {
 
     passwordBox.value = password;
 } 
+
+
+
+function copyPassword(){
+
+    var text = document.getElementById('password');
+    
+    text.select();
+
+    navigator.clipboard.writeText(text.value);
+
+
+
+    copyMessage.style.display = "block";
+
+    setTimeout(() => {
+        copyMessage.style.display = "none";
+    }, 3000);
+
+    
+}
+
+
+

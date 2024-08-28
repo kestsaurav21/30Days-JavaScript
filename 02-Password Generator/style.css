@@ -74,3 +74,9 @@ body{
     border-radius: 5px;
     cursor: pointer; 
 }
+
+.display p{
+    display: none;
+    color: black;
+    margin-top: 5px;
+}
