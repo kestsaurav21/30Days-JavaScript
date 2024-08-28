@@ -17,7 +17,7 @@ function generatePassword() {
     password += numbers[Math.floor(Math.random() * numbers.length)];
     password += specialSymbol[Math.floor(Math.random() * specialSymbol.length)];
 
-    while(length> password.length){
+    while(length > password.length){
         password += allCharacter[Math.floor(Math.random() * allCharacter.length)];
     }
 
