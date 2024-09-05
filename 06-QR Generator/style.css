@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(135deg, #BB2CD9, #E74292);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 20px;
+    min-width: 500px;
+    min-height: 500px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+h1{
+    margin: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#input-box{
+    margin: 12px;
+    padding: 10px;
+    width: 80%;
+    display: block;
+    outline: none;
+    font-weight: 800;
+    font-size: large;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+
+}
+Button{
+    background: black;
+    color: white;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
