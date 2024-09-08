@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main class="container">
+        <h2 class="question"></h2>
+
+        <ul>
+            <li>
+                <input type="radio" class="answer" id="option-a" name="options">
+                <label for="option-a" class="text-option-a">Option A</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-b" name="options">
+                <label for="option-b" class="text-option-b">Option B</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-c" name="options">
+                <label for="option-c" class="text-option-c">Option C</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="option-d" name="options">
+                <label for="option-c" class="text-option-d">Option D</label>
+            </li>
+        </ul>
+
+        <button id="submit">Submit</button>
+    </main>
     
+
+    <script src="app.js"></script>
 </body>
 </html>
