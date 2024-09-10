@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 44px;
     margin-bottom: 10px;
 }
 
@@ -46,10 +46,13 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
+    margin-bottom: 15px;
 }
 
 button {
     background-color: #ff4500;
+    width: 100%;
+    display: block;
     color: #fff;
     border: none;
     padding: 10px 20px;
